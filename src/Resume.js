@@ -5,10 +5,10 @@ class Resume extends Component {
     return (
       <div>
             <div id="download-resume">
-                <a href="../resources/KenLeombrunoResume.pdf" download> Download PDF </a>
+                <a href="KenLeombrunoResume.pdf" download> Download PDF </a>
             </div>
             <div id="resume-pdf">
-                <iframe src="../resources/KenLeombrunoResume.pdf" title="Resume" frameBorder="0" />
+                <iframe src="KenLeombrunoResume.pdf" title="Resume" frameBorder="0" />
             </div>
       </div>
     );
