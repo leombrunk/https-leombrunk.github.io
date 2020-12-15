@@ -1,18 +1,19 @@
 import React, { Component } from "react";
- 
+import pdf from "./resources/KenLeombrunoResume.pdf";
+
 class Resume extends Component {
-  render() {
-    return (
-      <div>
-            <div id="download-resume">
-                <a href="KenLeombrunoResume.pdf" download> Download PDF </a>
+    render() {
+        return (
+            <div>
+                <div id="download-resume">
+                    <a href={pdf} download> Download PDF </a>
+                </div>
+                <div id="resume-pdf">
+                    <iframe src={pdf} title="Resume" frameborder="0" ></iframe>
+                </div>
             </div>
-            <div id="resume-pdf">
-                <iframe src="KenLeombrunoResume.pdf" title="Resume" frameBorder="0" />
-            </div>
-      </div>
-    );
-  }
+        );
+    }
 }
  
 export default Resume;
