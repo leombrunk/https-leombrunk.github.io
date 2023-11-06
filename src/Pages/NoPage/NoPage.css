@@ -1,0 +1,9 @@
+.nopage-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  align-items: stretch;
+  text-align: center;
+  padding-bottom: 50px;
+}

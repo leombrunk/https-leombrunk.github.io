@@ -1,0 +1,20 @@
+.project-summary {
+  margin: 10px 0px 10px 0px;
+}
+
+.project-summary a {
+  font-size: 25px;
+}
+
+.project-summary img {
+  width: 100%;
+  max-width: 300px;
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+.project-details {
+  border-top: solid 1px rgb(140, 141, 156);
+  padding: 10px;
+  font-size: 20px;
+}
