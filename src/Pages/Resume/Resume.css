@@ -1,3 +1,7 @@
 #download-resume {
   text-align: center;
 }
+
+#resume-pdf iframe {
+  min-width: 0px;
+}

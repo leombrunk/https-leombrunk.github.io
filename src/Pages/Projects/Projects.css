@@ -4,10 +4,18 @@
   max-width: 1000px;
 }
 
+.projects-container img {
+  max-height: 200px;
+}
+
 .project-guide {
   max-width: 1000px;
 }
 
 .project-guide img {
   width: 100%;
+}
+
+.project-guide li {
+  margin-bottom: 5px;
 }

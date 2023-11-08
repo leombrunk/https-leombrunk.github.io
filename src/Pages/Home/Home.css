@@ -31,7 +31,7 @@ iframe {
   width: 60vw;
   height: 50vw;
   max-height: 600px;
-  min-width: 400px;
+  min-width: 0px;
   min-height: 250px;
   max-width: 1000px;
 }

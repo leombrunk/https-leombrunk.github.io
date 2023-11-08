@@ -5,6 +5,7 @@
   justify-content: space-evenly;
   align-items: stretch;
   min-height: 75px;
+  min-width: 175px;
   margin-top: 25px;
 }
 
