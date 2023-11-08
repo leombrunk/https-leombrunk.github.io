@@ -16,16 +16,16 @@ function App() {
       <Banner />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="projects" element={<Projects projects={ProjectList} />} />
+        <Route path="/projects" element={<Projects projects={ProjectList} />} />
         {ProjectList.map((project) => (
           <Route
-            path={`projects/${project.page}`}
+            path={`/projects/${project.page}`}
             element={project.component}
           />
         ))}
-        <Route path="contact" element={<Contact />} />
-        <Route path="resume" element={<Resume />} />
-        <Route path="*" element={<NoPage />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/*" element={<NoPage />} />
       </Routes>
     </div>
   );
